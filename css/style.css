@@ -1,0 +1,126 @@
+body {
+    background-color: #090909;
+    color: #f5f5f5;
+}
+
+header {
+    background: rgba(9, 9, 9, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #222;
+    z-index: 1000;
+}
+
+#presentation {
+    max-width: 1100px;
+    margin: auto;
+}
+
+#presentation h1 {
+    max-width: 950px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.card {
+    background: #111 !important;
+    border-color: #2b2b2b !important;
+    border-radius: 16px;
+    transition: transform 0.25s ease,
+                border-color 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #666 !important;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+}
+
+:root {
+    --accent: #b8a7ff;
+}
+
+.text-uppercase.small {
+    color: var(--accent) !important;
+    letter-spacing: 0.15em;
+}
+
+.navbar-brand {
+    color: var(--accent) !important;
+}
+
+#presentation h1 {
+    max-width: 950px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 12px 22px;
+    transition: all 0.2s ease;
+}
+
+.btn-light:hover {
+    transform: translateY(-2px);
+}
+
+.btn-outline-light:hover {
+    transform: translateY(-2px);
+}
+
+section {
+    padding: 110px 0;
+}
+
+#presentation {
+    padding-top: 40px;
+}
+
+#apropos .container,
+#formation .container,
+#contact .container {
+    max-width: 900px;
+}
+
+#presentation h1 {
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+}
+
+#presentation .lead {
+    max-width: 760px;
+}
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 75px 0;
+    }
+
+    #presentation {
+        min-height: 85vh !important;
+    }
+
+    #presentation h1 {
+        font-size: clamp(3rem, 14vw, 5rem);
+    }
+
+    #presentation .lead {
+        font-size: 1.05rem;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .card-body {
+        padding: 24px !important;
+    }
+
+    .navbar-collapse {
+        padding-top: 20px;
+    }
+}
