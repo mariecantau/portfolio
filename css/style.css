@@ -78,12 +78,6 @@ section {
     padding-top: 40px;
 }
 
-#apropos .container,
-#formation .container,
-#contact .container {
-    max-width: 900px;
-}
-
 #presentation h1 {
     font-size: clamp(3.5rem, 8vw, 7rem);
     line-height: 0.95;
